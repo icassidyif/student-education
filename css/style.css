@@ -1,0 +1,41 @@
+*
+{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html
+{
+  height: 100%;
+}
+
+body
+{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 100%;
+}
+
+<!--  -->
+.wrapper{
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.wrapper-full-width{
+  max-width: none;
+}
+
+.header{
+  min-height: 50px;
+  background: black;
+}
+
+.footer {
+  min-height: 50px;
+  background: black;
+  margin-top: auto;
+}
