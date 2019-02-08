@@ -37,6 +37,7 @@ body{
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  padding: 0 10px;
 }
 .top-line__contacts {
   color: #484e50;
@@ -183,4 +184,8 @@ input::-webkit-search-results-decoration { display: none; }
   .main-menu li {
     margin-bottom: 0;
     text-align: left;
+}
+.container {
+  padding: 0;
+}
 }
